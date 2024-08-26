@@ -43,7 +43,7 @@ document.getElementById('color-watch3').addEventListener('change',function(){
 });
 
 document.getElementById('color-watch4').addEventListener('change',function(){
-    document.getElementById('product-img2').src='Image/producT/OPPPO-WATCH-free-navigation-black.png';
+    document.getElementById('product-img2').src='Image/product/OPPPO-WATCH-free-navigation-black.png';
 });
 
 //product-img3

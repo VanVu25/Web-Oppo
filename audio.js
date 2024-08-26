@@ -95,7 +95,7 @@ document.getElementById('color-air12').addEventListener('change',function(){
 });
 
 document.getElementById('color-air13').addEventListener('change',function(){
-    document.getElementById('product-img7').src='/Image/product/AIR-listpage-blue-v2.png';
+    document.getElementById('product-img7').src='Image/product/AIR-listpage-blue-v2.png';
 });
 
 //product-img8
