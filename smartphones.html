@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="Image/logo.jpg">
+
+  <!-- Kết hợp và tối ưu hóa tài nguyên CSS -->
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Preconnect để tăng tốc độ tải phông chữ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Tối ưu hóa CSS riêng -->
+  <link rel="stylesheet" href="smartphones.css">
+
+  <title>Điện Thoại OPPO</title>
+</head>
+
+<body>
+  <!-- Thanh MENU -->
+  <header id="sidebar">
+    <div class="brand" id="brand">
+      <!-- Thêm id cho brand -->
+      <span id="brand-name"></span>
+    </div>
+    <div class="menu">
+      <ul class="nav nav-underline">
+        <li class="nav-item"><a class="nav-link" href="/smartphones.html">Điện Thoại</a></li>
+        <li class="nav-item"><a class="nav-link" href="/tablets.html">Máy Tính Bảng</a></li>
+        <li class="nav-item"><a class="nav-link" href="/audio.html">Tai Nghe</a></li>
+        <li class="nav-item"><a class="nav-link" href="/wearables.html">Đồng Hồ Thông Minh</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about.html">Về OPPO</a></li>
+      </ul>
+      <form action="#">
+        <div class="form-input">
+          <input type="search" placeholder="Tìm OPPO ...">
+          <button type="submit" class="search-btn"><i class='bx bx-search'></i></button>
+        </div>
+      </form>
+      <a href="#" class="profile"><img src="Image/avatar-trang-4.jpg" alt="Profile"></a>
+    </div>
+  </header>
+  <hr class="styled-hr">
+  <!-- Phần giới thiệu sản phẩm -->
+  <section id="product-promo">
+    <nav class="product-navbar">
+      <ul>
+        <li><a href="#new-products-title" class="active">Sản Phẩm Mới Nhất</a></li>
+        <li><a href="#find-n-series-title">Find N Series</a></li>
+        <li><a>Find X Series</a></li>
+        <li><a href="#reno-series-title">Reno Series</a></li>
+        <li><a href="#A-Series-title">A Series</a></li>
+        <li><a href="#filter">Filters</a></li>
+      </ul>
+    </nav>
+    <!-- Sản Phẩm Mới Nhất -->
+    <section id="product-gallery">
+      <h2 id="new-products-title" class="section-title">Sản Phẩm Mới Nhất</h2>
+      <div class="product-cards">
+        <div class="product-card">
+          <img src="/Image/product/find-n3-427_600-gold.png" alt="OPPO Find N3" id="product-img1">
+          <div class="color-options">
+            <input type="radio" id="color1" name="color" value="black" checked>
+            <label for="color1"></label>
+            <input type="radio" id="color2" name="color" value="white">
+            <label for="color2"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Find N3</h3>
+            <p>Bậc Thầy Gập Mở</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="/Image/product/find-n3-flip-427_600-gold.png" alt="OPPO Find N3 Flip" id="product-img2">
+          <div class="color-options">
+            <input type="radio" id="color3" name="color" value="black" checked>
+            <label for="color3"></label>
+            <input type="radio" id="color4" name="color" value="white">
+            <label for="color4"></label>
+            <input type="radio" id="color5" name="color" value="white">
+            <label for="color5"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Find N3 Flip</h3>
+            <p>Gập Để Tỏa Sáng</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="/Image/product/OPPO-Reno12-Pro-5G-silver.png" alt="OPPO Reno12 Pro 5G" id="product-img3">
+          <div class="color-options">
+            <input type="radio" id="color6" name="color" value="black" checked>
+            <label for="color6"></label>
+            <input type="radio" id="color7" name="color" value="white">
+            <label for="color7"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Reno12 Pro 5G</h3>
+            <p>Tap into AI</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="/Image/product/OPPO-Reno12-5G-brown.png" alt="OPPO Reno12 5G" id="product-img4">
+          <div class="color-options">
+            <input type="radio" id="color8" name="color" value="black" checked>
+            <label for="color8"></label>
+            <input type="radio" id="color9" name="color" value="white">
+            <label for="color9"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Reno12 5G</h3>
+            <p>Tap into AI</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OPPO Find N Series -->
+    <section id="product-Find-N">
+      <h2 id="find-n-series-title" class="section-title">OPPO Find N Series</h2>
+      <div class="products-series">
+        <div class="product-series">
+          <img src="/Image/product/find-n3-kv-1304_732.png" alt="OPPO Find N3">
+          <div class="product-info">
+            <h3>OPPO Find N3</h3>
+            <p>Bậc Thầy Gập Mở</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="product-series">
+          <img src="/Image/product/find-n3-flip-kv-1304_732.png" alt="OPPO Find N3 Flip">
+          <div class="product-info">
+            <h3>OPPO Find N3</h3>
+            <p>Bậc Thầy Gập Mở</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+      </div>
+      <div class="products-cards-series">
+        <div class="card-series">
+          <img src="/Image/product/find-n3-427_600-gold.png" alt="OPPO Find N3" id="product-img5">
+          <div class="color-options-series">
+            <input type="radio" id="color-N1" name="color" value="black" checked>
+            <label for="color-N1"></label>
+            <input type="radio" id="color-N2" name="color" value="white">
+            <label for="color-N2"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Find N3</h3>
+            <p>Bậc Thầy Gập Mở</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/find-n3-flip-427_600-gold.png" alt="OPPO Find N3 Flip" id="product-img6">
+          <div class="color-options-series">
+            <input type="radio" id="color-N3" name="color" value="black" checked>
+            <label for="color-N3"></label>
+            <input type="radio" id="color-N4" name="color" value="white">
+            <label for="color-N4"></label>
+            <input type="radio" id="color-N5" name="color" value="white">
+            <label for="color-N5"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Find N3 Flip</h3>
+            <p>Gập Để Tỏa Sáng</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/find-n2-flip-purple_427_600.png" alt="OPPO Find N2 Flip" id="product-img7">
+          <div class="color-options-series">
+            <input type="radio" id="color-N6" name="color" value="black" checked>
+            <label for="color-N6"></label>
+            <input type="radio" id="color-N7" name="color" value="white">
+            <label for="color-N7"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Find N2 Flip</h3>
+            <p>Gập Để Mở</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OPPO Reno Series -->
+    <section id="product-Reno">
+      <h2 id="reno-series-title" class="section-title">OPPO Reno Series</h2>
+      <div class="products-series">
+        <div class="product-series">
+          <img src="/Image/product/1304-732-silver.png" alt="OPPO Reno12 Pro 5G">
+          <div class="product-info">
+            <h3>OPPO Reno12 Pro 5G</h3>
+            <p>Tap into AI</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="product-series">
+          <img src="/Image/product/OPPO-Reno12-5G.png" alt="OPPO Reno12 5G">
+          <div class="product-info">
+            <h3>OPPO Reno12 5G</h3>
+            <p>Tap into AI</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+      </div>
+      <div class="products-cards-series">
+        <div class="card-series">
+          <img src="/Image/product/OPPO-RENO12-F-4G-427-600-green.png" alt="OPPO Reno12 F 4G" id="product-img8">
+          <div class="color-options-RENO">
+            <input type="radio" id="color-RENO1" name="color" value="black" checked>
+            <label for="color-RENO1"></label>
+            <input type="radio" id="color-RENO2" name="color" value="white">
+            <label for="color-RENO2"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Reno12 F 4G</h3>
+            <p>Tap into AI</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/OPPO-RENO12-F-5G-427-600-orange.png" alt="OPPO Reno12 F 5G" id="product-img9">
+          <div class="color-options-RENO">
+            <input type="radio" id="color-RENO3" name="color" value="black" checked>
+            <label for="color-RENO3"></label>
+            <input type="radio" id="color-RENO4" name="color" value="white">
+            <label for="color-RENO4"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Reno12 F 5G</h3>
+            <p>Tap into AI</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/OPPO-Reno12-Pro-5G-silver.png" alt="OPPO Reno12 Pro 5G" id="product-img10">
+          <div class="color-options-RENO">
+            <input type="radio" id="color-RENO5" name="color" value="white">
+            <label for="color-RENO5"></label>
+            <input type="radio" id="color-RENO6" name="color" value="black" checked>
+            <label for="color-RENO6"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Reno12 Pro 5G</h3>
+            <p>Tap into AI</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/OPPO-Reno12-5G-silver.png" alt="OPPO Reno12 5G" id="product-img11">
+          <div class="color-options-RENO">
+            <input type="radio" id="color-RENO7" name="color" value="white">
+            <label for="color-RENO7"></label>
+            <input type="radio" id="color-RENO8" name="color" value="black" checked>
+            <label for="color-RENO8"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Reno12 5G</h3>
+            <p>Tap into AI</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/reno11-f-427-600-blue.png" alt="OPPO Reno11 F 5G" id="product-img12">
+          <div class="color-options-RENO">
+            <input type="radio" id="color-RENO9" name="color" value="white">
+            <label for="color-RENO9"></label>
+            <input type="radio" id="color-RENO10" name="color" value="black" checked>
+            <label for="color-RENO10"></label>
+            <input type="radio" id="color-RENO11" name="color" value="white">
+            <label for="color-RENO11"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Reno11 F 5G</h3>
+            <p>Bộ Ba Camera Siêu Nét 64MP</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/reno11-pro-427-600-white.png" alt="OPPO Reno11 Pro 5G" id="product-img13">
+          <div class="color-options-RENO">
+            <input type="radio" id="color-RENO12" name="color" value="black" checked>
+            <label for="color-RENO12"></label>
+            <input type="radio" id="color-RENO13" name="color" value="white">
+            <label for="color-RENO13"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Reno11 Pro 5G</h3>
+            <p>Thiết Kế Cảm Hứng Từ Thiên Nhiên</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/reno11-427-600-green.png" alt="OPPO Reno11 5G" id="product-img14">
+          <div class="color-options-RENO">
+            <input type="radio" id="color-RENO14" name="color" value="black" checked>
+            <label for="color-RENO14"></label>
+            <input type="radio" id="color-RENO15" name="color" value="white">
+            <label for="color-RENO15"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Reno11 5G</h3>
+            <p>Chuyên Gia Chân Dung</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/reno10-pro-plus-5g-427_600-purple.png" alt="OPPO Reno10 Pro+ 5G" id="product-img15">
+          <div class="color-options-RENO">
+            <input type="radio" id="color-RENO16" name="color" value="black" checked>
+            <label for="color-RENO16"></label>
+            <input type="radio" id="color-RENO17" name="color" value="white">
+            <label for="color-RENO17"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO Reno10 Pro+ 5G</h3>
+            <p>Chế Độ Chân Dung Chuyên Nghiệp</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OPPO A Series -->
+    <section id="product-A-Series">
+      <h2 id="A-Series-title" class="section-title">OPPO A Series</h2>
+      <div class="products-a-series">
+        <div class="product-item1">
+          <img src="/Image/product/OPPO-A60-list-page-1304-732.png" alt="OPPO A60" class="img-list">
+          <div class="product-info-a-series">
+            <h3>OPPO A60</h3>
+            <p>New A Series, A Mê Ly Tìm Hiểu Thêm</p>
+            <a href="#" class="learn-more-a-series">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="product-item2">
+          <img src="/Image/product/OPPO-A60-644-732_1-v2.png" alt="OPPO A60">
+          <div class="product-label-a-series">
+            <span>Độ Bền Chuẩn Quân Đội</span>
+          </div>
+        </div>
+        <div class="product-item2">
+          <img src="/Image/product/OPPO-A60-644-732_2-v2.png" alt="OPPO A60">
+          <div class="product-label-a-series">
+            <span>Pin 5000mAh tuổi thọ bền bỉ suốt 4 năm</span>
+          </div>
+        </div>
+      </div>
+      <div class="products-cards-series">
+        <div class="card-series">
+          <img src="/Image/product/OPPO-A3X-427-600-blue.png" alt="OPPO A3x" id="product-img16">
+          <div class="color-options-A">
+            <input type="radio" id="color-A1" name="color" value="black" checked>
+            <label for="color-A1"></label>
+            <input type="radio" id="color-A2" name="color" value="white">
+            <label for="color-A2"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO A3x</h3>
+            <p>Siêu Bền, Siêu Nhanh, Siêu Kháng Nước</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/OPPO-A3-427-600-white.png" alt="OPPO A3" id="product-img17">
+          <div class="color-options-A">
+            <input type="radio" id="color-A3" name="color" value="black" checked>
+            <label for="color-A3"></label>
+            <input type="radio" id="color-A4" name="color" value="white">
+            <label for="color-A4"></label>
+            <input type="radio" id="color-A5" name="color" value="white">
+            <label for="color-A5"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO A3</h3>
+            <p>Siêu Bền, Siêu Nhanh, Siêu Kháng Nước</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/OPPO-A60-427-600-purple.png" alt="OPPO A60" id="product-img18">
+          <div class="color-options-A">
+            <input type="radio" id="color-A6" name="color" value="black" checked>
+            <label for="color-A6"></label>
+            <input type="radio" id="color-A7" name="color" value="white">
+            <label for="color-A7"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO A60</h3>
+            <p>New A Series, A Mê Ly Tìm Hiểu Thêm</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/OPPO-A79-5g-427_600-purple.png" alt="OPPO A79 5G" id="product-img19">
+          <div class="color-options-A">
+            <input type="radio" id="color-A8" name="color" value="black" checked>
+            <label for="color-A8"></label>
+            <input type="radio" id="color-A9" name="color" value="white">
+            <label for="color-A9"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO A79 5G</h3>
+            <p>Thiết Kế Lông Vũ Toả Sáng, Màn Hình Siêu Sáng FHD+</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/OPPO-A38-427_600-gold.png" alt="OPPO A38" id="product-img20">
+          <div class="color-options-A">
+            <input type="radio" id="color-A10" name="color" value="black" checked>
+            <label for="color-A10"></label>
+            <input type="radio" id="color-A11" name="color" value="white">
+            <label for="color-A11"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO A38</h3>
+            <p>Siêu Sạc Nhanh SUPERVOOCTM 33W, Camera AI 50MP</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/OPPO-A58-427_600-green.png" alt="OPPO A58" id="product-img21">
+          <div class="color-options-A">
+            <input type="radio" id="color-A12" name="color" value="black" checked>
+            <label for="color-A12"></label>
+            <input type="radio" id="color-A13" name="color" value="white">
+            <label for="color-A13"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO A58</h3>
+            <p>Siêu Sạc Nhanh SUPERVOOCTM 33W</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/OPPO-A98-5g-427x600-blue.png" alt="OPPO A98 5G" id="product-img22">
+          <div class="color-options-A">
+            <input type="radio" id="color-A14" name="color" value="black" checked>
+            <label for="color-A14"></label>
+            <input type="radio" id="color-A15" name="color" value="white">
+            <label for="color-A15"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO A98 5G</h3>
+            <p>Camera AI 64MP, Camera Kính Hiển Vi 40x</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+        <div class="card-series">
+          <img src="/Image/product/OPPO-A78-427_600-green.png" alt="OPPO A78" id="product-img23">
+          <div class="color-options-A">
+            <input type="radio" id="color-A16" name="color" value="black" checked>
+            <label for="color-A16"></label>
+            <input type="radio" id="color-A17" name="color" value="white">
+            <label for="color-A17"></label>
+          </div>
+          <div class="product-info">
+            <h3>OPPO A78</h3>
+            <p>Siêu sạc nhanh SUPERVOOCTM 67W, RAM mở rộng 8GB + 8GB</p>
+            <a href="#" class="learn-more">Tìm Hiểu Thêm</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tìm sản phẩm -->
+    <section id="filter">
+      <div class="filter-container">
+        <h3 class="filter-heading">Bộ lọc tìm kiếm</h3>
+        <h1 class="filter-title">Tìm sản phẩm</h1>
+        <div class="filter-options">
+            <select class="filter-select" name="dienthoai" id="dienthoai">
+                <option value="">Dòng Điện Thoại</option>
+                <option value="Find N Series">Find N Series</option>
+                <option value="Find X Series">Find X Series</option>
+                <option value="Reno Series">Reno Series</option>
+                <option value="A Series">A Series</option>
+            </select>
+            <select class="filter-select" name="pin" id="pin">
+                <option value="">Pin</option>
+                <option value="4000-4400mAh">4000-4400mAh</option>
+                <option value="4400-4800mAh">4400-4800mAh</option>
+                <option value="4800-5000mAh">4800-5000mAh</option>
+            </select>
+            <select class="filter-select" name="bonho" id="bonho">
+                <option value="">Bộ Nhớ</option>
+                <option value="64gb">64GB</option>
+                <option value="128gb">128GB</option>
+                <option value="256gb">256GB</option>
+            </select>
+            <select class="filter-select" name="5g" id="5g">
+                <option value="">5G</option>
+                <option value="yes">Có</option>
+                <option value="no">Không</option>
+            </select>
+        </div>
+        <div class="filter-actions">
+            <a href="#" class="reset-filter" onclick="resetFilters()">Đặt lại</a>
+            <button class="filter-button" onclick="applyFilters()">41 kết quả</button>
+        </div>
+    </div>
+    </section>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-note">
+      <p>*Hình ảnh chỉ mang tính minh họa, vui lòng xem sản phẩm thực tế.</p>
+      <p>*UI chỉ mang tính minh họa, vui lòng tham khảo thiết kế UI của sản phẩm thực tế.</p>
+    </div>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Điện thoại</h3>
+        <ul>
+          <li>OPPO Find N3</li>
+          <li>OPPO Find N3 Flip</li>
+          <li>OPPO Find N2 Flip</li>
+          <li>OPPO Reno12 F 4G</li>
+          <li>OPPO Reno12 F 5G</li>
+          <li>OPPO Reno12 Pro 5G</li>
+          <li>OPPO Reno12 5G</li>
+          <li>OPPO Reno11 F 5G</li>
+          <li>OPPO Reno11 5G</li>
+          <li>OPPO Reno8 Z 5G</li>
+          <li>OPPO Reno8 5G</li>
+          <li>OPPO A3x</li>
+          <li>OPPO A3</li>
+          <li>Xem tất cả sản phẩm</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Sản phẩm IoT</h3>
+        <ul>
+          <li>OPPO Pad Neo</li>
+          <li>OPPO Pad 2</li>
+          <li>OPPO Pad Air</li>
+          <li>OPPO Watch X</li>
+          <li>OPPO Watch Free</li>
+          <li>OPPO Watch</li>
+          <li>OPPO Band 2</li>
+          <li>OPPO Enco Air4 Pro</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Mua ở đâu</h3>
+        <ul>
+          <li><a href="https://www.thegioididong.com/dtdd-oppo">Thế Giới Di Động</a></li>
+          <li><a href="https://fptshop.com.vn/dien-thoai/oppo">FPT Shop</a></li>
+          <li><a href="https://cellphones.com.vn/mobile/oppo.html">CellphoneS</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Hỗ trợ</h3>
+        <ul>
+          <li>Liên hệ</li>
+          <li>Dịch Vụ Đặt Lịch Sửa Chữa</li>
+          <li>Giá linh kiện</li>
+          <li>Kiểm tra máy chính hãng</li>
+
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Giới thiệu OPPO</h3>
+        <ul>
+          <li>Câu chuyện của chúng tôi</li>
+          <li>Cửa hàng Thương hiệu OPPO</li>
+          <li>Công nghệ</li>
+          <li>Ưu đãi</li>
+
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Cộng đồng Ofans</h3>
+        <ul>
+          <li>Cộng đồng Ofans</li>
+          <li>Cộng đồng Ofans Việt Nam</li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- Support Button -->
+    <div class="support-button">
+      <img src="Image/robot.png" alt="Support Icon">
+      <span>Nhận hỗ trợ từ OPPO<i class='bx bxs-chevron-up'></i></span>
+    </div>
+
+    <!-- Footer Links and Social Media -->
+    <div class="footer-bottom">
+      <div class="footer-links">
+        <a href="#">Quyền riêng tư</a>
+        <a href="#">Điều khoản sử dụng</a>
+        <a href="#">Về cookies</a>
+        <a href="#">Pháp chế & Tuân thủ</a>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#"><i class='bx bxl-tiktok'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+      </div>
+      <div class="footer-language">
+        <a href="#">Vietnam (Tiếng Việt)</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--JS -->
+  <script src="smartphones.js" defer></script>
+</body>
+
+</html>
