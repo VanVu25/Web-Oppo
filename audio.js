@@ -1,5 +1,5 @@
 document.getElementById("brand").addEventListener("click", function() {
-    window.location.href = "/index.html"; // Đổi link này thành trang mà bạn muốn chuyển đến
+    window.location.href = "index.html"; // Đổi link này thành trang mà bạn muốn chuyển đến
 });
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -51,47 +51,47 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //product-img3
 document.getElementById('color-air3').addEventListener('change',function(){
-    document.getElementById('product-img3').src='/Image/product/Air4-PRO-600-600-white.png';
+    document.getElementById('product-img3').src='Image/product/Air4-PRO-600-600-white.png';
 });
 
 document.getElementById('color-air4').addEventListener('change',function(){
-    document.getElementById('product-img3').src='/Image/product/AIR4-PRO-600-600-black.png';
+    document.getElementById('product-img3').src='Image/product/AIR4-PRO-600-600-black.png';
 });
 
 //product-img4
 document.getElementById('color-air5').addEventListener('change', function() {
-    document.getElementById('product-img4').src = '/Image/product/AIR3-600x600.png';
+    document.getElementById('product-img4').src = 'Image/product/AIR3-600x600.png';
 });
 
 document.getElementById('color-air6').addEventListener('change', function() {
-    document.getElementById('product-img4').src = '/Image/product/AIR3-white-600x600.png';
+    document.getElementById('product-img4').src = 'Image/product/AIR3-white-600x600.png';
 });
 
 //product-img5
 document.getElementById('color-air7').addEventListener('change',function(){
-    document.getElementById('product-img5').src='/Image/product/AIR2-PRO-white_listpage-600_490.png';
+    document.getElementById('product-img5').src='Image/product/AIR2-PRO-white_listpage-600_490.png';
 });
 
 document.getElementById('color-air8').addEventListener('change',function(){
-    document.getElementById('product-img5').src='/Image/product/AIR2-PRO-gray_listpage-600_490.png';
+    document.getElementById('product-img5').src='Image/product/AIR2-PRO-gray_listpage-600_490.png';
 });
 
 //product-img6
 document.getElementById('color-air9').addEventListener('change',function(){
-    document.getElementById('product-img6').src='/Image/product/AIR2-navigation-white.png';
+    document.getElementById('product-img6').src='Image/product/AIR2-navigation-white.png';
 });
 
 document.getElementById('color-air10').addEventListener('change',function(){
-    document.getElementById('product-img6').src='/Image/product/AIR2-navigation-blue.png';
+    document.getElementById('product-img6').src='Image/product/AIR2-navigation-blue.png';
 });
 
 //product-img7
 document.getElementById('color-air11').addEventListener('change',function(){
-    document.getElementById('product-img7').src='/Image/product/AIR-navigation-white-v2.png';
+    document.getElementById('product-img7').src='Image/product/AIR-navigation-white-v2.png';
 });
 
 document.getElementById('color-air12').addEventListener('change',function(){
-    document.getElementById('product-img7').src='/Image/product/AIR-listpage-black-v2.png';
+    document.getElementById('product-img7').src='Image/product/AIR-listpage-black-v2.png';
 });
 
 document.getElementById('color-air13').addEventListener('change',function(){
@@ -100,38 +100,38 @@ document.getElementById('color-air13').addEventListener('change',function(){
 
 //product-img8
 document.getElementById('color-air14').addEventListener('change',function(){
-    document.getElementById('product-img8').src='/Image/product/AIR-buds2-pro-427_600-white.png';
+    document.getElementById('product-img8').src='Image/product/AIR-buds2-pro-427_600-white.png';
 });
 
 document.getElementById('color-air15').addEventListener('change',function(){
-    document.getElementById('product-img8').src='/Image/product/AIR-buds2-pro-427_600-black.png';
+    document.getElementById('product-img8').src='Image/product/AIR-buds2-pro-427_600-black.png';
 });
 
 //product-img9
 document.getElementById('color-air16').addEventListener('change',function(){
-    document.getElementById('product-img9').src='/Image/product/Enco-buds2-600_600-v3.png';
+    document.getElementById('product-img9').src='Image/product/Enco-buds2-600_600-v3.png';
 });
 
 document.getElementById('color-air17').addEventListener('change',function(){
-    document.getElementById('product-img9').src='/Image/product/Enco-Buds2-black-600_600.png';
+    document.getElementById('product-img9').src='Image/product/Enco-Buds2-black-600_600.png';
 });
 
 //product-img12
 document.getElementById('color-air20').addEventListener('change',function(){
-    document.getElementById('product-img12').src='/Image/product/W31-navigation-Black-v2.png';
+    document.getElementById('product-img12').src='Image/product/W31-navigation-Black-v2.png';
 });
 
 document.getElementById('color-air21').addEventListener('change',function(){
-    document.getElementById('product-img12').src='/Image/product/W31-navigation-white-v2.png';
+    document.getElementById('product-img12').src='Image/product/W31-navigation-white-v2.png';
 });
 
 //product-img13
 document.getElementById('color-air22').addEventListener('change',function(){
-    document.getElementById('product-img13').src='/Image/product/Enco Q1-navigation-black-v2.png';
+    document.getElementById('product-img13').src='Image/product/Enco Q1-navigation-black-v2.png';
 });
 
 document.getElementById('color-air23').addEventListener('change',function(){
-    document.getElementById('product-img13').src='/Image/product/Enco Q1-navigation-orange-v2.png';
+    document.getElementById('product-img13').src='Image/product/Enco Q1-navigation-orange-v2.png';
 });
 
 

@@ -1,5 +1,5 @@
 document.getElementById("brand").addEventListener("click", function() {
-    window.location.href = "/index.html"; // Đổi link này thành trang mà bạn muốn chuyển đến
+    window.location.href = "index.html"; // Đổi link này thành trang mà bạn muốn chuyển đến
 });
 
 document.addEventListener('DOMContentLoaded', function() {
